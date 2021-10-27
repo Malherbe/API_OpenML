@@ -4,3 +4,5 @@ source 'https://rubygems.org'
 
 # Networking
 gem 'http', '~> 5.0'
+
+gem 'careerjet-api-client', require: 'careerjet/api_client'

@@ -1,59 +1,306 @@
----
-description: "**Author**: donated by David Sterling and Wray Buntine  \n**Source**:
-  [original (UCI)](http://www.openml.org/d/2) -   \n**Please cite**:   \n\nThis is
-  a preprocessed version of the <a href=\"d/2\">anneal</a> dataset (version 1). All
-  missing values are treated as a nominal value with label '?'. (Quotes for clarity).
-  Because this is not good practice, this dataset is deactivated. Use version 1 instead\n\n1.
-  Title of Database: Annealing Data\n \n 2. Source Information: donated by David Sterling
-  and Wray Buntine.\n \n 3. Past Usage: unknown\n \n 4. Relevant Information:\n    --
-  Explanation: I suspect this was left by Ross Quinlan in 1987 at the\n       4th
-  Machine Learning Workshop.  I'd have to check with Jeff Schlimmer\n       to double
-  check this.\n \n 5. Number of Instances: 898\n \n 6. Number of Attributes: 38\n
-  \   -- 6 continuously-valued\n    -- 3 integer-valued\n    -- 29 nominal-valued\n
-  \n 7. Attribute Information:\n     1. family:          --,GB,GK,GS,TN,ZA,ZF,ZH,ZM,ZS\n
-  \    2. product-type:    C, H, G\n     3. steel:           -,R,A,U,K,M,S,W,V\n     4.
-  carbon:          continuous\n     5. hardness:        continuous\n     6. temper_rolling:
-  \ -,T\n     7. condition:       -,S,A,X\n     8. formability:     -,1,2,3,4,5\n
-  \    9. strength:        continuous\n    10. non-ageing:      -,N\n    11. surface-finish:
-  \ P,M,-\n    12. surface-quality: -,D,E,F,G\n    13. enamelability:   -,1,2,3,4,5\n
-  \   14. bc:              Y,-\n    15. bf:              Y,-\n    16. bt:              Y,-\n
-  \   17. bw/me:           B,M,-\n    18. bl:              Y,-\n    19. m:               Y,-\n
-  \   20. chrom:           C,-\n    21. phos:            P,-\n    22. cbond:           Y,-\n
-  \   23. marvi:           Y,-\n    24. exptl:           Y,-\n    25. ferro:           Y,-\n
-  \   26. corr:            Y,-\n    27. blue/bright/varn/clean:          B,R,V,C,-\n
-  \   28. lustre:          Y,-\n    29. jurofm:          Y,-\n    30. s:               Y,-\n
-  \   31. p:               Y,-\n    32. shape:           COIL, SHEET\n    33. thick:
-  \          continuous\n    34. width:           continuous\n    35. len:             continuous\n
-  \   36. oil:             -,Y,N\n    37. bore:            0000,0500,0600,0760\n    38.
-  packing: -,1,2,3\n    classes:        1,2,3,4,5,U\n  \n    -- The '-' values are
-  actually 'not_applicable' values rather than\n       'missing_values' (and so can
-  be treated as legal discrete\n       values rather than as showing the absence of
-  a discrete value).\n \n 8. Missing Attribute Values: Signified with \"?\"\n    Attribute:
-  \ Number of instances missing its value:\n    1           0\n    2           0\n
-  \   3           70\n    4           0\n    5           0\n    6           675\n
-  \   7           271\n    8           283\n    9           0\n   10           703\n
-  \  11           790\n   12           217\n   13           785\n   14           797\n
-  \  15           680\n   16           736\n   17           609\n   18           662\n
-  \  19           798\n   20           775\n   21           791\n   22           730\n
-  \  23           798\n   24           796\n   25           772\n   26           798\n
-  \  27           793\n   28           753\n   29           798\n   30           798\n
-  \  31           798\n   32           0\n   33           0\n   34           0\n   35
-  \          0\n   36           740\n   37           0\n   38           789\n   39
-  \          0\n \n 9. Distribution of Classes\n      Class Name:   Number of Instances:\n
-  \     1               8\n      2              88\n      3             608\n      4
-  \              0\n      5              60\n      U              34\n                    ---\n
-  \                   798"
-name: anneal
-format: ARFF
-tag:
-- '1'
-- '12'
-- '123'
-- chemical
-- data1
-- dataset1
-- study_1
-- study_41
-- study_7
-- uci
-original_data_url: http://www.openml.org/d/2
+--- !ruby/hash:Careerjet::Mash
+jobs: !ruby/array:Hashie::Array
+- !ruby/hash:Careerjet::Mash
+  locations: London
+  site: ''
+  date: Tue, 26 Oct 2021 07:58:22 GMT
+  url: http://jobviewtrack.com/en-gb/job-1c4e417f4809001a425472160a184e230056110406034f593f7f4809001a4254720609021a472145020d051c5a4e4f2f7f010201531100270d170b0b0a50111a6b215f49440d6901190b4b1b50061a633c02044300482d165c4e51425d011d6f1646195a5c58/73046da24e9e59c2bccb25d13b2e4316.html?affid=213e213hd12344552
+  title: Ruby Developer (React - FULLY REMOTE)
+  description: "<b>Ruby</b> Developer (React)   Fully Remote   Competitive Salary
+    + Fantastic Benefits   A <b>Ruby</b> Developer... is required for a highly specialised
+    software development company. This <b>Ruby</b> Developer will be building, updating
+    and maintaining the companies..."
+  company: ARC IT Recruitment
+  salary: ''
+- !ruby/hash:Careerjet::Mash
+  salary_min: '45000'
+  locations: London
+  salary_type: Y
+  date: Tue, 26 Oct 2021 07:21:31 GMT
+  description: "<b>Ruby</b> Developer (Fully Remote) - £45,000 - £65,000   <b>Ruby</b>
+    Developer - would you like the opportunity to work... for a market leading company
+    with a worldwide presence, on a greenfield <b>Ruby</b> project along with the
+    chance to work with React..."
+  salary_currency_code: GBP
+  salary: "&pound;45000 - 65000 per year"
+  site: ''
+  url: http://jobviewtrack.com/en-gb/job-1b12417f5806164e63115606040e1e021722300d1f1646444d485f663d1b450d21525a5857535c/95b0de14c79a47491f8380a367868a09.html?affid=213e213hd12344552
+  title: Ruby Developer
+  salary_max: '65000'
+  company: Oliver Bernard
+- !ruby/hash:Careerjet::Mash
+  salary_min: '90000'
+  locations: London
+  salary_type: Y
+  date: Tue, 26 Oct 2021 07:12:40 GMT
+  description: "<b>Ruby</b> Developer, Fully remote, up to £90,000 p/a   Work anywhere
+    in the world!   <b>Ruby</b> Developer - would you like the... opportunity to work
+    for a market leading company with a world wide presence, as part of a growing
+    <b>Ruby</b> development team..."
+  salary_currency_code: GBP
+  salary: "&pound;90000 per year"
+  site: ''
+  url: http://jobviewtrack.com/en-gb/job-1b4d417a4216044e4e1a22311d0317472145020d051c5a4e4f2f6901190b4b1b50061a633c120759763f0601412a0c1f145d5b57/0ad593366113bd91d71015447506845d.html?affid=213e213hd12344552
+  title: Ruby Developer - Work anywhere in the world
+  salary_max: '90000'
+  company: Oliver Bernard
+- !ruby/hash:Careerjet::Mash
+  locations: London
+  site: ''
+  date: Mon, 25 Oct 2021 07:23:56 GMT
+  url: http://jobviewtrack.com/en-gb/job-1b12417f5806164e63115606040e1e021722300d1f1646444d485f663d1b450d21525a5857535c/4e719f3e55f5f4e60c69563dbb74f23a.html?affid=213e213hd12344552
+  title: Ruby Developer
+  description: "<b>Ruby</b> Developer - Contract - London - £600-£750 Inside IR35
+    \  Your new company  My client, a large central government... organisation is
+    looking for a <b>Ruby</b> Developer for an initial 6-month contract.   Your new
+    role  You'll share the responsibility..."
+  company: Hays
+  salary: ''
+- !ruby/hash:Careerjet::Mash
+  locations: London
+  site: ''
+  date: Mon, 25 Oct 2021 00:19:20 GMT
+  url: http://jobviewtrack.com/en-gb/job-1b12417f5806164e63115606040e1e021722300d1f1646444d485f663d1b450d21525a5857535c/69497e9e927ea2d33b983f92ac4fa8a1.html?affid=213e213hd12344552
+  title: Ruby Developer
+  description: " a commercial environment with expert knowledge of <b>Ruby</b> (with
+    and without Rails) OR demonstrated experience... would be beneficial, but not
+    essential:  Integration of third-party services and data  Working with <b>Ruby</b>
+    outside of Rails..."
+  company: Experis
+  salary: ''
+- !ruby/hash:Careerjet::Mash
+  salary_min: '60000'
+  locations: London
+  salary_type: Y
+  date: Sun, 24 Oct 2021 07:52:07 GMT
+  description: "<b>Ruby</b> Developer, Fully remote, up to £90,000 p/a   Work anywhere
+    in the world!   <b>Ruby</b> Developer - would you like the... opportunity to work
+    for a market leading company with a world wide presence, as part of a growing
+    <b>Ruby</b> development team..."
+  salary_currency_code: GBP
+  salary: "&pound;60000 - 90000 per year"
+  site: ''
+  url: http://jobviewtrack.com/en-gb/job-1b4d417a4216044e4e1a22311d0317472145020d051c5a4e4f2f6901190b4b1b50061a633c120759763f0601412a0c1f145d5b57/47bb37d35a45af20136f0ec0e00fbe55.html?affid=213e213hd12344552
+  title: Ruby Developer - Work anywhere in the world
+  salary_max: '90000'
+  company: Oliver Bernard
+- !ruby/hash:Careerjet::Mash
+  salary_min: '45000'
+  locations: London
+  salary_type: Y
+  date: Sun, 24 Oct 2021 01:46:44 GMT
+  description: "<b>Ruby</b> Developer (Fully Remote) - £45,000 - £65,000   <b>Ruby</b>
+    Developer - would you like the opportunity to work... for a market leading company
+    with a worldwide presence, on a greenfield <b>Ruby</b> project along with the
+    chance to work with React..."
+  salary_currency_code: GBP
+  salary: "&pound;45000 - 65000 per year"
+  site: ''
+  url: http://jobviewtrack.com/en-gb/job-1b12417f5806164e63115606040e1e021722300d1f1646444d485f663d1b450d21525a5857535c/ca129d3ff1d00626fcbbf82404b00290.html?affid=213e213hd12344552
+  title: Ruby Developer
+  salary_max: '65000'
+  company: Oliver Bernard
+- !ruby/hash:Careerjet::Mash
+  salary_min: '75000'
+  locations: London
+  salary_type: Y
+  date: Fri, 22 Oct 2021 23:06:54 GMT
+  description: '2330   London, England, £50000 - £75000 per annum + benefits   Job
+    Type: Permanent   Managed by:   Senior <b>Ruby</b>... Developer (Python .Net Java
+    JavaScript TDD) *Remote*. Looking for an opportunity to utilise your Senior <b>Ruby</b>
+    Developer skills...'
+  salary_currency_code: GBP
+  salary: "&pound;75000 per year"
+  site: ''
+  url: http://jobviewtrack.com/en-gb/job-1c1f417f4809001a42547306060801154572010a10536e4e4b48410b1f0b55767206050e1a024572010a10536e4e4b48410b1f0b55767206050e1a0245731106001c580b79485b010301571152613b04000e0a52543a1c11530b79485b010301571152613a0403081145542c0c054f47525d48166e5f154d195751/45f070e4c333d923c863f359b0b88ad2.html?affid=213e213hd12344552
+  title: Senior Ruby Developer - Remote
+  salary_max: '75000'
+  company: Client Server
+- !ruby/hash:Careerjet::Mash
+  locations: London
+  site: ''
+  date: Thu, 21 Oct 2021 07:20:53 GMT
+  url: http://jobviewtrack.com/en-gb/job-484e416f4c07044e621a4443220018064564111e0c1f455b585f2f260e0d4c54650d0c412a021345180719165829774c5b054f2a4202450f07110b1545651a0f001d4f4e4f2f6705190f07245917000e00472145020d051c5a4e4f2f6f050c0507314e07482b0f110421455a504a1e12/ba0bdaddef5d506b9f1068483252d2f3.html?affid=213e213hd12344552
+  title: Back End Developer/Engineer - Java/Python/Ruby/JavaScript/AWS/Docker
+  description: 'Back End (Java/Python/<b>Ruby</b>) - AWS Serverless - Distributed
+    Scalable Systems - AI Disaster Recovery   I''m working..., happy to have applicants
+    from Python, Typescript, Java, <b>Ruby</b> and Javascript backgrounds.   Tech
+    Stack: Python, TypeScript...'
+  company: Westbourne Partners
+  salary: ''
+- !ruby/hash:Careerjet::Mash
+  salary_min: '65000'
+  locations: London
+  salary_type: Y
+  date: Mon, 18 Oct 2021 07:39:18 GMT
+  description: "<b>Ruby</b> on Rails Developer (Temporarily remote, until they return
+    back to the office)  Location : London  Salary... and join a fantastic company.
+    \  Tasks   I am currently looking for an experienced Senior <b>Ruby</b> on Rails
+    Developer to join my client's busy..."
+  salary_currency_code: GBP
+  salary: "&pound;65000 - 75000 per year"
+  site: ''
+  url: http://jobviewtrack.com/en-gb/job-1b1c417f5806164e481a0031090802144564111e0c1f455b585f2f361a0c5e547202010d1d653755161149374f5d584142140a1c2526410a04124e230056110406034f593f6948120a024804451169505c5e5c144d/209bb3a21fd27bb6ae7914d5925351d4.html?affid=213e213hd12344552
+  title: Ruby on Rails Developer
+  salary_max: '75000'
+  company: Pertemps Network
+- !ruby/hash:Careerjet::Mash
+  salary_min: '65000'
+  locations: London
+  salary_type: Y
+  date: Sun, 17 Oct 2021 22:41:36 GMT
+  description: "<b>Ruby</b> on Rails Developer (Temporarily remote, until they return
+    back to the office)  Location : London  Salary... and join a fantastic company.
+    \  Tasks   I am currently looking for an experienced Senior <b>Ruby</b> on Rails
+    Developer to join my client's busy..."
+  salary_currency_code: GBP
+  salary: "&pound;65000 - 75000 per year"
+  site: ''
+  url: http://jobviewtrack.com/en-gb/job-1b1c417f5806164e481a0031090802144564111e0c1f455b585f2f361a0c5e547202010d1d653755161149374f5d584142140a1c2526410a04124e230056110406034f593f6948120a024804451169505c5e5c144d/ed87d8a06c46901f2efb2b98e1948db6.html?affid=213e213hd12344552
+  title: Ruby on Rails Developer
+  salary_max: '75000'
+  company: Pertemps
+- !ruby/hash:Careerjet::Mash
+  salary_min: '95000'
+  locations: London
+  salary_type: Y
+  date: Sun, 17 Oct 2021 06:50:10 GMT
+  description: 'Lead Technical Architect (React or <b>Ruby</b>/AWS) - Remote/UK   GBP
+    95k bonus stock options   My client, a digital start-up... a cloud-based ecosystem:
+    <b>Ruby</b>, React or React Native   Experience presenting technical solutions
+    to customers.   A proven...'
+  salary_currency_code: GBP
+  salary: "&pound;95000 per year"
+  site: ''
+  url: http://jobviewtrack.com/en-gb/job-4e4d4179480707004e17410f48201c040d49000d0a07287f584e450a060d4618002f0d000a652945150c49325848554459010c1a2535520000081a020654763a1c11532a0c1f145d5b57/9df86990d397005851fd0be3dc685aef.html?affid=213e213hd12344552
+  title: Lead Technical Architect (React or Ruby/AWS)
+  salary_max: '95000'
+  company: ''
+- !ruby/hash:Careerjet::Mash
+  salary_min: '85000'
+  locations: London
+  salary_type: Y
+  date: Sun, 17 Oct 2021 06:28:34 GMT
+  description: 'Snr Technical Architect, Remote (React or <b>Ruby</b>) - Remote/UK   andpound;85k
+    bonus stock options   The Company:   My... following languages in a cloud-based
+    ecosystem: <b>Ruby</b>, React or React Native  Experience presenting technical
+    solutions...'
+  salary_currency_code: GBP
+  salary: "&pound;85000 per year"
+  site: ''
+  url: http://jobviewtrack.com/en-gb/job-4e4a4179480707004e17410f48201c040d49000d0a072879584042100a4e7501421a6a330b060654543a0c1e455f582f6c160c064e0045001c633c12075975595b4a131f04/f18d1f3436cb70579b6c419f8764ce03.html?affid=213e213hd12344552
+  title: Snr Technical Architect, Remote (React or Ruby)
+  salary_max: '85000'
+  company: ''
+- !ruby/hash:Careerjet::Mash
+  salary_min: '60000'
+  locations: London
+  salary_type: Y
+  date: Sun, 17 Oct 2021 06:15:38 GMT
+  description: Full Stack Developer, Remote (Linux/<b>Ruby</b>/JS) - Remote/UK   GBP
+    60 to GBP 65k bonus stock options   My client, a digital..., JavaScript, jQuery)   Knowledge
+    of multiple back-end languages (e.g., Python, <b>Ruby</b>, Java) and JavaScript
+    frameworks (e.g...
+  salary_currency_code: GBP
+  salary: "&pound;60000 - 65000 per year"
+  site: ''
+  url: http://jobviewtrack.com/en-gb/job-481d416b5808034e7400410003412a0213451807191658296f48400b1b0b0726550111412a0213451807191658297b5841084f3d5315430848330b0a0a54116a3b16474449480d200a1842184f130d136c35004d1b1c0c536642535855655e5c1e4d145a/da6b6a64ac7646537e1a0a313975d100.html?affid=213e213hd12344552
+  title: Full Stack Developer, Remote (Linux/Ruby/JS)
+  salary_max: '65000'
+  company: ''
+- !ruby/hash:Careerjet::Mash
+  salary_min: '80000'
+  locations: London
+  salary_type: Y
+  date: Sun, 17 Oct 2021 05:21:13 GMT
+  description: Snr Full Stack Developer, Remote (Linux/<b>Ruby</b>/JS) - Remote/UK   GBP
+    80 to GBP 85k bonus stock options   My client... (e.g. HTML/ CSS, JavaScript,
+    jQuery)   Knowledge of multiple back-end languages (e.g., Python, <b>Ruby</b>,
+    Java) and JavaScript...
+  salary_currency_code: GBP
+  salary: "&pound;80000 - 85000 per year"
+  site: ''
+  url: http://jobviewtrack.com/en-gb/job-481d416b5808034e7400410003412a0213451807191658296f48400b1b0b0726550111412a0213451807191658297b5841084f3d5315430848330b0a0a54116a3b16474449480d200a1842184f130d136c35004d1b1c0c536642535855655e5c1e4d145a/c5959132db46ca0c2f0ffe5bfdb11b11.html?affid=213e213hd12344552
+  title: Snr Full Stack Developer, Remote (Linux/Ruby/JS)
+  salary_max: '85000'
+  company: ''
+- !ruby/hash:Careerjet::Mash
+  locations: London
+  site: ''
+  date: Sat, 16 Oct 2021 22:51:08 GMT
+  url: http://jobviewtrack.com/en-gb/job-1b12417f5806164e63115606040e1e021722300d1f1646444d485f663d1b450d21525a5857535c/9cab16245e7bd9a7b6132beeb050c7d5.html?affid=213e213hd12344552
+  title: Ruby Developer
+  description: " applications  Writing and maintaining reliable <b>Ruby</b> code,
+    as well as participating in code reviews  Integrating data storage...’ experience
+    working with <b>ruby</b> on rails as well as libraries like Sidekiq and RSpec
+    \ Ability to write clean <b>ruby</b> code  Proficiency..."
+  company: dopay
+  salary: ''
+- !ruby/hash:Careerjet::Mash
+  salary_min: '600'
+  locations: London
+  salary_type: D
+  date: Sat, 16 Oct 2021 01:02:50 GMT
+  description: "<b>Ruby</b> On Rails Developer required by leading Software House.
+    \  6 months contract - Remote   This role is In Scope... experience building consumer-facing
+    software  2+ years of experience with <b>Ruby</b>  An experienced engineer who
+    can turn ideas..."
+  salary_currency_code: GBP
+  salary: "&pound;600 - 630 per day"
+  site: ''
+  url: http://jobviewtrack.com/en-gb/job-1b1c417f5806164e481a0031090802144564111e0c1f455b585f2f361a0c5e547202010d1d653755161149374f5d584142140a1c2526410a04124e230056110406034f593f6948120a024804451169505c5e5c144d/54b4385e92c937b3d0176afa5b724d5e.html?affid=213e213hd12344552
+  title: Ruby On Rails Developer
+  salary_max: '630'
+  company: GCS Recruitment Specialists
+- !ruby/hash:Careerjet::Mash
+  salary_min: '60000'
+  locations: London
+  salary_type: Y
+  date: Fri, 15 Oct 2021 07:26:28 GMT
+  description: "<b>Ruby</b> Developer, Fully remote, up to £90,000 p/a   Work anywhere
+    in the world!   <b>Ruby</b> Developer - would you like the... opportunity to work
+    for a market leading company with a world wide presence, as part of a growing
+    <b>Ruby</b> development team..."
+  salary_currency_code: GBP
+  salary: "&pound;60000 - 90000 per year"
+  site: ''
+  url: http://jobviewtrack.com/en-gb/job-1b4d417a4216044e4e1a22311d0317472145020d051c5a4e4f2f6901190b4b1b50061a633c120759763f0601412a0c1f145d5b57/3a598262dcc79207c1dd24ac200b47aa.html?affid=213e213hd12344552
+  title: Ruby Developer - Work anywhere in the world
+  salary_max: '90000'
+  company: Oliver Bernard
+- !ruby/hash:Careerjet::Mash
+  salary_min: '475'
+  locations: London
+  salary_type: D
+  date: Thu, 14 Oct 2021 07:32:31 GMT
+  description: "<b>Ruby</b> developer- <b>Ruby</b> on rails, RESTful web services,
+    Docker, AWS, Micro services   £475- £525 OUTSIDE IR35...   An exciting, fast growing
+    company are currentlylooking for a <b>Ruby</b> developer to join their new project.
+    You will work on a cross..."
+  salary_currency_code: GBP
+  salary: "&pound;475 - 525 per day"
+  site: ''
+  url: http://jobviewtrack.com/en-gb/job-1b1c417f5806164e481a0031090802144564111e0c1f455b585f2f361a0c5e547202010d1d653755161149374f5d584142140a1c2526410a04124e230056110406034f593f6948120a024804451169505c5e5c144d/d4c14abc18b4eb818b945f58bae21fdc.html?affid=213e213hd12344552
+  title: Ruby on rails developer
+  salary_max: '525'
+  company: La Fosse Associates
+- !ruby/hash:Careerjet::Mash
+  salary_min: '55000'
+  locations: London
+  salary_type: Y
+  date: Thu, 14 Oct 2021 06:41:04 GMT
+  description: London Arena   Permanent   £55000 - £70000 per annum   Frontend Developer
+    - (Ecommerce / Vue.JS / CSS / HTML / <b>Ruby</b>... WebSockets  A well-honed eye
+    for high quality design and UX  Experience working on e-commerce and high impact
+    campaigns  <b>Ruby</b>...
+  salary_currency_code: GBP
+  salary: "&pound;55000 per year"
+  site: ''
+  url: http://jobviewtrack.com/en-gb/job-1a4e416e7e374f2673396c432c041802094f040d1b71627f70610d273c3d253c742e24412a0213451807191658297b5f420a1b0b491000270d170b0b0a50111a6b215f49440d6901190b4b1b50061a605f555c194051/58102ae200e33ba9ed91cf20b1784d79.html?affid=213e213hd12344552
+  title: Frontend Developer - (Ecommerce / Vue.JS / CSS / HTML / Ruby / API)
+  salary_max: '55000'
+  company: Jumar Solutions
+hits: 500
+response_time: 0.0295500755310059
+type: JOBS
+pages: 25
